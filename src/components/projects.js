@@ -8,13 +8,13 @@ export default function Projects() {
             <p className="text-center text-sm mt-1 text-gray-600">What I've worked on so far</p>
 
             <div className="flex flex-wrap justify-evenly">
-                <Project title='Coronav' description='Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sagittis nisi non volutpat blandit.'/>
+                <Project title='Coronav' description='A web app to get status about COVID-19 using vanilla Javascript, HTML, CSS.' image="coronav.png" codeLink="https://git.generalassemb.ly/cboulafaa/CORONAV" viewLink="https://pages.git.generalassemb.ly/cboulafaa/CORONAV"/>
 
-                <Project title='You Learn' description='Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sagittis nisi non volutpat blandit.'/>
+                <Project title='You Learn' description='A React app connected to youtube API to provide a distraction-free environment while learning from youtube.' image="youlearn.png" codeLink="https://github.com/Charafboulafaa/YouLearn" viewLink="#"/>
 
-                <Project title='Recipe Box' description='Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sagittis nisi non volutpat blandit.'/>
+                <Project title='Recipe Box' description='A full-stack food recipes app, using ReactJs, Express.js, and MongoDB.' image="recipes.png" codeLink="https://github.com/malcolmc10/P3-recipebox" viewLink="#"/>
 
-                <Project title='Quizi' description='Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sagittis nisi non volutpat blandit.'/>
+                <Project title='Quizi' description='A full-stack quiz builder app, which allows users to create quizzes that could be played by others, using React, Ruby on Rails and PostgreSQL.' image="quizi.png" codeLink="https://github.com/Charafboulafaa/Quizi" viewLink="#"/>
             </div>
         </div>
     )
