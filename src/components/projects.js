@@ -3,7 +3,7 @@ import Project from './project'
 
 export default function Projects() {
     return (
-        <div className="text-center py-12">
+        <div id="portfolio" className="text-center py-12">
             <h2 className="text-xl font-bold">Projects</h2>
             <p className="text-center text-sm mt-1 text-gray-600">What I've worked on so far</p>
 
