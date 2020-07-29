@@ -3,30 +3,17 @@ import PropTypes from "prop-types"
 import React from "react"
 
 const Header = ({ siteTitle }) => (
-  <header
-    style={{
-      background: `rebeccapurple`,
-      marginBottom: `1.45rem`,
-    }}
-  >
-    <div
-      style={{
-        margin: `0 auto`,
-        maxWidth: 960,
-        padding: `1.45rem 1.0875rem`,
-      }}
-    >
-      <h1 style={{ margin: 0 }}>
-        <Link
-          to="/"
-          style={{
-            color: `white`,
-            textDecoration: `none`,
-          }}
-        >
-          {siteTitle}
-        </Link>
+  <header className="py-3 flex justify-between">
+    <div>
+      <h1 className="font-bold">
+        <Link to="/">{siteTitle}</Link>
       </h1>
+    </div>
+
+    <div className="flex">
+      <h2 className="mx-1">About</h2>
+      <h2 className="mx-1">Portfolio</h2>
+      <h2 className="mx-1">Contact</h2>
     </div>
   </header>
 )
