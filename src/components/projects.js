@@ -3,9 +3,9 @@ import Project from './project'
 
 export default function Projects() {
     return (
-        <div className="text-center">
+        <div className="text-center py-12">
             <h2 className="text-xl font-bold">Projects</h2>
-            <p className="mt-1">What I've worked on so far</p>
+            <p className="text-center text-sm mt-1 text-gray-600">What I've worked on so far</p>
 
             <div className="flex flex-wrap justify-evenly">
                 <Project title='Coronav' description='Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sagittis nisi non volutpat blandit.'/>

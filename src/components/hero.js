@@ -15,7 +15,7 @@ export default function Hero() {
         }
     `)
     return (
-        <div className="flex items-center py-24">
+        <div className="flex items-center pt-24 pb-12">
             <div className="w-2/4">
                 <h1 className="text-4xl font-extrabold">Charaf Boulafaa</h1>
                 <p className="text-xl font-semibold my-4">A Software Engineer</p>
