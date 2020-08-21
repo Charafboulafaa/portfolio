@@ -30,7 +30,7 @@ export default function Project(props) {
             </div> */}
 
             <div className="w-full">
-                <h3 className="text-2xl mb-2">{props.title}</h3>
+                <h3 className="text-3xl mb-2">{props.title}</h3>
                 <p className="text-gray-800">{props.description}</p>
                 <div class="my-4">
                     {props.stack
