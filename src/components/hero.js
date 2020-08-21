@@ -7,7 +7,7 @@ export default function Hero() {
         query {
         codingImage: file(relativePath: { eq: "coding.png" }) {
             childImageSharp {
-            fluid(maxWidth: 300) {
+            fluid(maxWidth: 1200) {
                 ...GatsbyImageSharpFluid
             }
             }

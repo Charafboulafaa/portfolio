@@ -29,7 +29,7 @@ const Image = (props) => {
   `)
 
   return(
-    <Img style={{ maxHeight: "100%" }} imgStyle={{ objectFit: "contain" }} fluid={data.allImageSharp.edges.find((element) => {
+    <Img style={{ maxHeight: "100%", width: '200px' }} imgStyle={{ objectFit: "contain" }} fluid={data.allImageSharp.edges.find((element) => {
       return (element.node.fluid.src.split('/').pop() === props.imgsrc);
     }).node.fluid} />
   )

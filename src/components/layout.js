@@ -25,7 +25,7 @@ const Layout = ({ children }) => {
   `)
 
   return (
-    <div className="container mx-auto font-sans">
+    <div className="container mx-auto px-4 font-sans">
       <Header siteTitle={data.site.siteMetadata.title} />
       <div>
         <main>{children}</main>
