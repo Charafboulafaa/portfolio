@@ -30,12 +30,16 @@ export default function Project(props) {
             </div> */}
 
             <div className="w-full">
-                <h3 className="text-2xl mb-2 text-blue-500">{props.title}</h3>
+                <h3 className="text-2xl mb-2">{props.title}</h3>
                 <p className="text-gray-800">{props.description}</p>
-                <div className="mt-3">
-                    <a href={props.viewLink} className="text-black mr-2"><FontAwesomeIcon icon={faEye} /></a>
-                    
-                    <a href={props.codeLink} className="text-black "><FontAwesomeIcon icon={faGithub} /></a>
+                <div class="my-4">
+                    {props.stack
+                    &&
+                    props.stack.map(e => <span class="inline-block bg-gray-100 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">{e}</span>)}  
+                </div>
+                <div className="text-xl flex justify-evenly">
+                    <a href={props.codeLink} className="text-blue-500"><FontAwesomeIcon icon={faGithub} /></a>
+                    <a href={props.viewLink} className="text-blue-500 mr-2"><FontAwesomeIcon icon={faEye} /></a>
                 </div>
             </div>
         </div>
