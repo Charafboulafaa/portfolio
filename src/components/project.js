@@ -22,7 +22,7 @@ export default function Project(props) {
         }
     `)
     return (
-        <div className="text-center flex items-center my-6 p-6 bg-gray-100 rounded-lg w-full lg:w-5/12">
+        <div className="text-center flex items-center my-6 p-8 bg-white rounded-lg w-full lg:w-5/12 font-sans">
             {/* <div className="w-6/12 h-40 overflow-hidden">
 
                 <Image imgsrc={props.image}/>
@@ -30,7 +30,7 @@ export default function Project(props) {
             </div> */}
 
             <div className="w-full">
-                <h3 className="text-xl font-bold mb-2 text-blue-500">{props.title}</h3>
+                <h3 className="text-2xl mb-2 text-blue-500">{props.title}</h3>
                 <p className="text-gray-800">{props.description}</p>
                 <div className="mt-3">
                     <a href={props.viewLink} className="text-black mr-2"><FontAwesomeIcon icon={faEye} /></a>
