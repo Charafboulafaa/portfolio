@@ -32,10 +32,10 @@ export default function Project(props) {
             <div className="w-full">
                 <h3 className="text-3xl mb-2">{props.title}</h3>
                 <p className="text-gray-800">{props.description}</p>
-                <div class="my-4">
+                <div className="my-4">
                     {props.stack
                     &&
-                    props.stack.map(e => <span class="inline-block bg-gray-100 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">{e}</span>)}  
+                    props.stack.map(e => <span className="inline-block bg-gray-100 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">{e}</span>)}  
                 </div>
                 <div className="text-xl flex justify-evenly">
                     <a href={props.codeLink} className="text-blue-500"><FontAwesomeIcon icon={faGithub} /></a>
