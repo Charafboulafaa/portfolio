@@ -27,15 +27,15 @@ export default function Contact() {
             <p className="text-center text-base mt-1 text-gray-600">Feel free to get in touch with me</p>
             <form className="p-8 mb-4 max-w-xl mx-auto" onSubmit={sendEmail}>
                 <div className="mb-4">
-                    <input className="shadow-xs appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight outline-none text-sm" name="name" type="text" placeholder="Full Name"/>
+                    <input className="shadow-xs appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight outline-none text-sm" name="name" type="text" placeholder="Full Name" required/>
                 </div>
 
                 <div className="mb-4">
-                    <input className="shadow-xs appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight outline-none text-sm" name="email" type="email" placeholder="Email"/>
+                    <input className="shadow-xs appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight outline-none text-sm" name="email" type="email" placeholder="Email" required/>
                 </div>
 
                 <div className="mb-4">
-                    <textarea className="shadow-xs appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight outline-none text-sm" name="message" placeholder="Message" rows="6"></textarea>
+                    <textarea className="shadow-xs appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight outline-none text-sm" name="message" placeholder="Message" rows="6" required></textarea>
                 </div>
 
                 <button className="bg-blue-500 hover:bg-blue-600 text-white text-base py-1 px-3 rounded" type="submit">
