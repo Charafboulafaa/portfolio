@@ -1,6 +1,7 @@
 import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
 import Img from "gatsby-image"
+import scrollTo from 'gatsby-plugin-smoothscroll'
 
 export default function Hero() {
     const data = useStaticQuery(graphql`
@@ -20,7 +21,9 @@ export default function Hero() {
                 <h1 className="text-5xl font-semibold">Charaf Boulafaa</h1>
                 <p className="text-2xl font-medium my-4">Software Engineer</p>
                 <p>Focused on giving efficient and creative results, and determined to be a integral part of a development team.</p>
-                <button className="bg-blue-500 hover:bg-blue-600 text-white py-1 px-4 rounded mt-4 tracking-wide text-lg">See Projects</button>
+                <button onClick={()=> scrollTo('#projects')} className="bg-blue-500 hover:bg-blue-600 text-white py-1 px-4 rounded mt-4 tracking-wide text-lg mr-2">Projects</button>
+
+                <a href={`charaf_boulafaa.pdf`} target="_blank" className="bg-blue-500 hover:bg-blue-600 text-white py-1 px-4 rounded mt-4 tracking-wide text-lg">Resume</a>
             </div>
 
             <div className="hidden sm:block sm:w-2/4">

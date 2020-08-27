@@ -14,7 +14,7 @@ const Header = ({ siteTitle }) => (
 
       <div className="flex">
         <button onClick={()=> scrollTo('#about')} className="mx-2">About</button>
-        <button onClick={()=> scrollTo('#portfolio')} className="mx-2">Portfolio</button>
+        <button onClick={()=> scrollTo('#projects')} className="mx-2">Projects</button>
         <button onClick={()=> scrollTo('#contact')} className="mx-2">Contact</button>
       </div>
     </div>
