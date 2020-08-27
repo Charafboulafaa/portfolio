@@ -2,7 +2,7 @@ import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
 import Img from "gatsby-image"
 import scrollTo from 'gatsby-plugin-smoothscroll'
-import resume from '../files/charaf_boulafaa.pdf' 
+import resume from '../files/Charaf_Boulafaa.pdf' 
 
 export default function Hero() {
     const data = useStaticQuery(graphql`
