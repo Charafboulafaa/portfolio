@@ -4,6 +4,10 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+    scroll-padding-top: 63px
+}
+
 button{
     &:focus{
         outline: none;

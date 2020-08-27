@@ -4,7 +4,7 @@ import React from "react"
 import scrollTo from 'gatsby-plugin-smoothscroll';
 
 const Header = ({ siteTitle }) => (
-  <header className="shadow-md">
+  <header className="shadow-md sticky top-0 z-10 bg-white">
     <div className="container mx-auto px-4 py-4 flex justify-between text-base font-semibold">
       <div>
         {/* <h1 className="font-bold">
